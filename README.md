@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Radack World:
+* created to replace the paper hard copy of our ( large ) family list
 
-Things you may want to cover:
+Rails 5.1 App
+Testing will be done with RSpec
 
-* Ruby version
+## Done: 
+- CRUD functions for Member (contacts) model
+- Some Styling
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TODO:
+- *Ongoing* Styling Components (SCSS)
+- Replace views with Vue.js
+- Add search to member list
+- Add Sign in & Auth
+- Add Admin Dashboard
+- more
