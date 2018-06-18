@@ -13,19 +13,52 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 $light-purple: #6369D1;
 $ice-blue: #60E1E0;
-$grayish: #D8D2E1;
+$grayish: rgb(128, 127, 129);
 $light-brown: #B88E8D;
 $dark-navy: #34435E;
 
-$fontStyle: "roboto";
+$main-font: "Raleway";
+$sub-font: "Merriweather";
 
-h1 {
-  color: $light-brown;
-  font-family: $fontStyle;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
-h2 {
+h1 {
+  font-family: $main-font;
+  text-align: center;
   color: $dark-navy;
+}
+
+table {
+  width: 80%;
+  margin: 3rem 0 3rem 10%;
+  text-align: center;
+}
+
+table, th, td {
+  border-radius: 3px;
+  border-bottom: 1px solid $grayish;
+  border-collapse: collapse;
+}
+
+.members-table {
+  text-align: center;
+}
+
+.members-row {
+  height: 4rem;
+  td {
+    font-family: $sub-font;
+    vertical-align: bottom;
+    padding-bottom: .5rem;
+  }
 }
